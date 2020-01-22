@@ -73,6 +73,10 @@ input, select, textarea {
 }
 
 /* Basic */
+body{
+	margin: 50px;
+	border: 1px solid grey;
+}
 
 	@-ms-viewport {
 		width: device-width;
@@ -2640,8 +2644,8 @@ input, select, textarea {
 		}
 
 		.image.left, .image.right {
-			width: 40%;
-			
+			/* width: 40%; */
+			width: 60%;
 			max-width: 10rem;
 		}
 
@@ -4898,7 +4902,7 @@ input, select, textarea {
 				-moz-object-fit: cover;
 				-webkit-object-fit: cover;
 				-ms-object-fit: cover;
-				object-fit: cover;
+				object-fit: fill;
 				-moz-object-position: center;
 				-webkit-object-position: center;
 				-ms-object-position: center;
@@ -4931,7 +4935,7 @@ input, select, textarea {
 		@media screen and (max-width: 980px) {
 
 			.spotlight.style1 .content {
-				padding: 3.75rem 3rem 1.75rem 3rem ;
+				padding: 3.75rem 2rem 1.75rem 3rem ;
 				width: 50%;
 				min-width: 0;
 			}
